@@ -3,6 +3,8 @@ console.log(currentTime);
 //create variable for time linked with table
 var tableTimer = ''
 var textArea = $("textarea")
+
+
 for (let i = 0; i < textArea.length; i++) {
     const element = textArea [i];
     console.log(elemnet.getAttribute("id"));
@@ -31,8 +33,9 @@ console.log("success")
 
 });
 //should show in local storage!
+//09 is 9am 17 is 5pm ie beginning and end of chart timing
 $(document).ready(function() {
-    for(let i =09; i < 17; i++) {
+    for(let i = 09; i < 17; i++) {
         var innerText = $('#${i}')
         console.log(innertext)
     }
